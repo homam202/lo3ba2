@@ -1,9 +1,6 @@
-# Mario Faces
+# مغامرة الوجوه (Mario Faces)
 
-1. أنشئ مستودعاً جديداً على GitHub، ثم ارفع كل محتويات هذا المجلد (بما فيها مجلد .github).
-2. افتح تبويب Actions ← Build APK ← Run workflow (أو يعمل تلقائياً عند الرفع).
-3. بعد انتهاء البناء (~5-8 دقائق) افتح التشغيلة ونزّل `mario-faces-apk` من Artifacts.
-4. فك الضغط وثبّت app-release.apk على هاتفك.
-
-لتغيير أسماء الشخصيات: عدّل القائمة `names` في أعلى lib/main.dart.
-لتغيير الوجوه: استبدل assets/faces/face1..5.png بصور مربعة.
+- 4 عوالم × 3 مراحل (مرحلتان + زعيم): العلوي، السفلي، السماء، القلعة النارية.
+- الأسماء: عدّل `names` أعلى lib/main.dart. الوجوه: assets/faces/face1..5.png
+- الأصوات والموسيقى مولّدة بـ tools/gen_sounds.py (أعد تشغيله لتغييرها).
+- البناء: ارفع المشروع إلى GitHub ← Actions ← Build APK ← نزّل mario-faces-apk.
